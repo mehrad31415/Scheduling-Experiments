@@ -1,0 +1,12 @@
+name myexp
+comment experiment
+run myrun numprocs 1
+run myrun numprocs 10
+run myrun numprocs 100
+run myrun numprocs 1000
+run myrun numprocs 10000
+run myrun numprocs 100000
+run myrun numprocs 1000000
+run myrun numprocs 10000000
+run myrun numprocs 100000000
+run myrun numprocs 1000000000

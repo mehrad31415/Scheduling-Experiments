@@ -1,0 +1,11 @@
+name myrun
+comment experiment
+algorithm RR 2
+
+numprocs 10
+firstarrival 0.0
+interarrival constant 0.0
+duration uniform 20.0 80.0
+cpuburst uniform 40.0 100.0
+ioburst constant 0.0
+basepriority 1.0

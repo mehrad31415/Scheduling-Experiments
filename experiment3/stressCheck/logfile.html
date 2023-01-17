@@ -1,0 +1,187 @@
+<HEAD>
+<TITLE>Process Scheduling for Local User generated Fri Oct 21 02:50:56 CEST 2022</TITLE>
+</HEAD>
+<BODY BGCOLOR=#FFFFFF><H3>Process Scheduling for Local User generated Fri Oct 21 02:50:56 CEST 2022</H3>
+
+<H6>Process Scheduling Simulator
+version 1.100L288 by S. Robbins 
+supported by NSF grants 
+DUE-9750953 and DUE-9752165.
+<br>See <a href=http://vip.cs.utsa.edu/nsf>http://vip.cs.utsa.edu/nsf</a> for simulator information.<br><br>
+Java version 11.0.16.1 OS Mac OS X version 12.6 24402060259
+<br></H6>
+
+<hr>
+
+<b>Configuration File:</b><br>
+logdir .<br>
+logfn logfile.html<br>
+quiet .<br>
+imagename gifim<br>
+user Local User<br>
+portable true<br>
+run myrun<br>
+exp myexp<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<hr>
+
+<b>Number of Run Files: 1</b><br>
+--------------------<br>
+name myrun<br>
+comment experiment<br>
+algorithm RR 2<br>
+<br>
+numprocs 20<br>
+firstarrival 0.0<br>
+interarrival constant 0.0<br>
+duration exponential 20.0<br>
+cpuburst exponential 40.0<br>
+ioburst constant 0.0<br>
+basepriority 1.0
+<hr>
+
+<b>Number of Experiment Files: 1</b><br>
+--------------------<br>
+name myexp<br>
+comment experiment<br>
+run myrun numprocs 1<br>
+run myrun numprocs 10<br>
+run myrun numprocs 100<br>
+run myrun numprocs 1000<br>
+run myrun numprocs 10000<br>
+run myrun numprocs 100000<br>
+run myrun numprocs 1000000<br>
+run myrun numprocs 10000000<br>
+run myrun numprocs 100000000<br>
+run myrun numprocs 1000000000
+<hr>
+
+<center><TABLE Border=1>
+<TR>
+<TD Align=center COLSPAN=5>Experimental Run Information for 1 Run
+</TR>
+<TR><TABLE Border=2>
+<TR COLSPAN=8>
+<TD Align=center COLSPAN=7>
+myrun: &nbsp&nbsp experiment &nbsp&nbsp 
+Seed: 0&nbsp&nbsp Algorithm: RR2.0</TD></TR>
+<TR><TD Align=center>Group</TD>
+<TD Align=center>Processes</TD>
+<TD Align=center>First Arrival</TD>
+<TD Align=center>Interarrival</TD>
+<TD Align=center>Duration</TD>
+<TD Align=center>CPU Burst</TD>
+<TD Align=center>I/O Burst</TD>
+</TR>
+<TR><TD Align=center>1</TD><TD ALign=right>20</TD><TD Align=right>0.0</TD><TD>constant        0.00</TD><TD>exponential    20.00</TD><TD>exponential    40.00</TD><TD>constant        0.00</TD></TR>
+</TABLE></TR>
+</TR></TABLE></center>
+<p><hr><p>
+
+<Center><TABLE Border=1>
+<TR>
+<TD Align=center COLSPAN=4>Experimental Runs For 1 Experiment
+</TR><TR>
+<TD Align=left>Experiment</TD>
+<TD ALign=center>Commentary</TD>
+<TD ALign=center>Run</TD>
+<TD ALign=center>Modifications</TD>
+</TR>
+<TR><TD Align=center>myexp</td>
+<TD Align=left>experiment</TD>
+<TD Align=left>myrun_1</TD>
+<TD Align=left>numprocs 1</TD>
+</TR>
+<TR><TD> </td>
+<TD></TD>
+<TD Align=left>myrun_2</TD>
+<TD Align=left>numprocs 10</TD>
+</TR>
+<TR><TD> </td>
+<TD></TD>
+<TD Align=left>myrun_3</TD>
+<TD Align=left>numprocs 100</TD>
+</TR>
+<TR><TD> </td>
+<TD></TD>
+<TD Align=left>myrun_4</TD>
+<TD Align=left>numprocs 1000</TD>
+</TR>
+<TR><TD> </td>
+<TD></TD>
+<TD Align=left>myrun_5</TD>
+<TD Align=left>numprocs 10000</TD>
+</TR>
+<TR><TD> </td>
+<TD></TD>
+<TD Align=left>myrun_6</TD>
+<TD Align=left>numprocs 100000</TD>
+</TR>
+<TR><TD> </td>
+<TD></TD>
+<TD Align=left>myrun_7</TD>
+<TD Align=left>numprocs 1000000</TD>
+</TR>
+<TR><TD> </td>
+<TD></TD>
+<TD Align=left>myrun_8</TD>
+<TD Align=left>numprocs 10000000</TD>
+</TR>
+<TR><TD> </td>
+<TD></TD>
+<TD Align=left>myrun_9</TD>
+<TD Align=left>numprocs 100000000</TD>
+</TR>
+<TR><TD> </td>
+<TD></TD>
+<TD Align=left>myrun_10</TD>
+<TD Align=left>numprocs 1000000000</TD>
+</TR>
+</TR></TABLE></center>
+
+<hr size=5>
+<H2>Starting experiment of 10 runs from myexp</H2>
+Fri Oct 21 02:51:00 CEST 2022<br>
+Starting run from myrun_1<br>
+Starting to run events using RR 2.00<br>
+30 events done in 15 milliseconds<br>
+<br>
+Fri Oct 21 02:51:00 CEST 2022<br>
+Starting run from myrun_2<br>
+Starting to run events using RR 2.00<br>
+186 events done in 28 milliseconds<br>
+<br>
+Fri Oct 21 02:51:00 CEST 2022<br>
+Starting run from myrun_3<br>
+Starting to run events using RR 2.00<br>
+2101 events done in 290 milliseconds<br>
+<br>
+Fri Oct 21 02:51:00 CEST 2022<br>
+Starting run from myrun_4<br>
+Starting to run events using RR 2.00<br>
+21189 events done in 2705 milliseconds<br>
+<br>
+Fri Oct 21 02:51:03 CEST 2022<br>
+Starting run from myrun_5<br>
+Starting to run events using RR 2.00<br>
+<hr size=5>
+<H2>Starting experiment of 10 runs from myexp</H2>
+Fri Oct 21 02:51:06 CEST 2022<br>
+Starting run from myrun_1<br>
+Fri Oct 21 02:51:06 CEST 2022<br>
+Starting run from myrun_2<br>
+Fri Oct 21 02:51:06 CEST 2022<br>
+Starting run from myrun_3<br>
+Fri Oct 21 02:51:06 CEST 2022<br>
+Starting run from myrun_4<br>
+Fri Oct 21 02:51:06 CEST 2022<br>
+Starting run from myrun_5<br>
+Fri Oct 21 02:51:07 CEST 2022<br>
+Starting run from myrun_6<br>

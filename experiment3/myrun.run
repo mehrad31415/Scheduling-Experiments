@@ -1,0 +1,22 @@
+name myrun
+comment This is experiment 1 run file
+algorithm RR 2
+
+numprocs 20
+firstarrival 0.0
+interarrival constant 0.0
+duration exponential 20.0
+cpuburst exponential 40.0
+ioburst constant 0.0
+basepriority 1.0
+
+numprocs 20
+firstarrival 0.0
+interarrival constant 0.0
+duration exponential 5.0
+cpuburst exponential 10.0
+ioburst constant 0.0
+basepriority 1.0
+
+
+
