@@ -1,7 +1,7 @@
 # Scheduling-Experiments
 This was the second project of the operating systems course.
 
-The aim of this assignment is to learn how to design, execute, and report on scheduling experiments performed with the Process Scheduling Simulator. Decriptions on how to use the software can be found on the following website: (http://www.classque.net/simulators/guides/ps/ps_doc.html)
+The aim of this assignment is to learn how to design, execute, and report on scheduling experiments performed with the Process Scheduling Simulator. Scheduling algorithms such as round robin, first come first serve, shortest job first, and preemptive shortest job first have been experimented. Decriptions on how to use the software can be found on the following website: (http://www.classque.net/simulators/guides/ps/ps_doc.html)
 
 ### Inroduction
 In experiments 1 to 3 below, the number of processes is 40. There are two kinds of processes (20 of each). All processes arrive at the start. The various times used for one kind of process (duration, CPU burst, I/O burst distribution values) is around four times those used for the other kind of process. All basepriorities are held at 1.0. The quantum for RR is less than the average duration. For simplicity, experiments are conducted with zero time for I/O bursts.
